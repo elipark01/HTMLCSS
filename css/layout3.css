@@ -9,6 +9,24 @@ div.header>div.headerGrid{}
 div.header>div.headerGrid>ul{}
 div.header>div.headerGrid>ul>li{}
 
+/*공통:*/
+
+div.content{}
+div.content>div.contentGrid{}
+div.content>div.contentGrid>div.header{}
+div.content>div.contentGrid>div.header>h2{}
+div.content>div.contentGrid>div.section{}
+div.content>div.contentGrid>div.section div.article{
+    background-color: #0e4af0;
+}
+div.content>div.contentGrid>div.section>div.article>img{}
+div.content>div.contentGrid>div.section>div.article>div.texts{}
+div.content>div.contentGrid>div.section>div.article>div.texts>h3{}
+div.content>div.contentGrid>div.section>div.article>div.texts>h4{}
+dv.content>div.contentGrid>div.section>div.article>div.texts>p{}
+
+
+
 /* 컨텐츠 1 */
 div.content.cnt1{}
 div.content.cnt1>div.contentGrid{}
